@@ -1,5 +1,18 @@
-house_price_model.joblib
-heart_env
-.lh
+# Ignore virtual environment
+heart_env/
+
+# Ignore system / temp files
+.lh/
+__pycache__/
+*.pyc
+
+# Ignore unwanted datasets
 Heart_Disease_Prediction.csv
 heart.csv
+
+# Ignore other project models
+house_price_model.joblib
+
+
+# Optional
+.env
